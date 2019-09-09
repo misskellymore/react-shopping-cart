@@ -4,7 +4,7 @@ import React, {useContext} from 'react';
 import Product from './Product';
 import ProductContext from '../contexts/ProductContext.js';
 
-const Products = props => {
+const Products = () => {
 	// calling the useContext hook and passing in the context 
 	// object we want to use into it on line 11
 
