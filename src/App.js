@@ -60,11 +60,11 @@ function App() {
 
 {/* The after route look cleaner bc we no longer need to pass down the products and additem props.
 We no longer have to do this bc the products and additems props are passed in as values inside 
-ProductContext.Provider on line 24. */}
+ProductContext.Provider. */}
 
 			<Route
 				path="/cart"
-				render={() => <ShoppingCart cart={cart} />}
+				component = {ShoppingCart}
 			/>
 		</div>
 
